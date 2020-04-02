@@ -1,0 +1,11 @@
+dependencies:
+  - base
+
+library:
+  source-dirs: src
+
+default-extensions:
+  - PatternSynonyms
+
+ghc-options:
+  - -fwrite-ide-info

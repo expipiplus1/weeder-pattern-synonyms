@@ -1,0 +1,24 @@
+cabal-version: 1.12
+
+-- This file has been generated from package.yaml by hpack version 0.33.0.
+--
+-- see: https://github.com/sol/hpack
+--
+-- hash: e9fa2c69a852a4b56e15086f36f50a3999c55ee2d246ef163347061c62bd7f2f
+
+name:           weeder-pattern-synonyms
+version:        0.0.0
+build-type:     Simple
+
+library
+  exposed-modules:
+      Main
+  other-modules:
+      Paths_weeder_pattern_synonyms
+  hs-source-dirs:
+      src
+  default-extensions: PatternSynonyms
+  ghc-options: -fwrite-ide-info
+  build-depends:
+      base
+  default-language: Haskell2010
